@@ -1,0 +1,49 @@
+.habilitiesContainer{
+    width:100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.habilitiesItem:first-child{
+    background-color: var(--blue);
+}
+
+.habilitiesItem:last-child{
+    background-color: var(--gray-background-2);
+}
+
+.habilitiesItem{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: var(--white);
+
+    transition: width .4s ease-in-out;
+}
+
+.habilitiesItem:hover{
+    width: 60%;
+}
+
+.habilitiesItem section{
+    margin: 0 auto;
+}
+
+.habilitiesItem h2{
+    font-size: 4rem;
+    font-weight: 500;
+    max-width: 80%;
+    line-height: 100%;
+}
+
+.habilitiesItem p{
+    max-width: 30rem;
+    font-size: 1.25rem;
+    margin-top: 30px;
+}
