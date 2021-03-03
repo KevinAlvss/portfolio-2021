@@ -4,6 +4,7 @@ export function FirstImpression(){
     return(
         <div className={styles.firstImpressionContainer}>
             <section>
+                <img src="./perfil.jfif" alt="imagem-perfil"/> 
                 <main>
                     <p>
                         Desenvolvedor Front-end de São Paulo, Brasil
